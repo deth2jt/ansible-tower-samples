@@ -6,7 +6,7 @@
         msg: "Hello World!"
         
     - name: Check the Cstate of all NIM clients
-      nim:
+      ibm.power_aix.nim:
         action: check
       no_log: "{{ no_log_val }}"
 
