@@ -1,4 +1,0 @@
----
-collections:
-  - name: ibm.power_aix
-  - name: ansible.tower
